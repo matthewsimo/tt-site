@@ -22,7 +22,7 @@
 							</h3>
 
 							{#if rules.length > 0}
-								<div class="text-left text-sm normal-case font-thin p-4">
+								<div class="text-left text-sm normal-case font-light p-4">
 									<div class="align-top whitespace-normal">
 										{#each rules as rule}
 											<div class="mb-4 last:mb-0 space-y-2">

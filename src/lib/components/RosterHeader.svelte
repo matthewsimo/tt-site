@@ -10,7 +10,7 @@
 			{roster.meta.catalogueName}
 		</h3>
 	</div>
-	<div class="stats shadow bg-primary-content text-info-content">
+	<div class="stats shadow bg-base-300 border-base-300 border">
 		<div class="stat">
 			<div class="stat-title">PTS</div>
 			<div class="stat-value">{roster.meta.cost.pts}</div>

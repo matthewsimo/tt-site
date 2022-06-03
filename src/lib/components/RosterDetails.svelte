@@ -57,7 +57,7 @@
 	</select>
 
 	<div
-		class="mx-auto max-w-5xl tabs w-full border-b border-b-base-content-faded overflow-x-scroll hidden lg:block"
+		class="mx-auto max-w-5xl tabs w-full border-b border-b-base-content overflow-x-scroll hidden lg:block"
 	>
 		{#each tabs as tab, index}
 			<button
@@ -70,7 +70,7 @@
 		{#each [...rolesInRoster] as [role, unitsForRole]}
 			{#if currentTab === 0}
 				<div
-					class="text-center text-primary-content bg-y-base-content border-y-2 py-2 mt-8 first:mt-2"
+					class="text-center text-base bg-y-base-content border-y-2 py-2 mt-8 first:mt-2"
 				>
 					{role}
 				</div>

@@ -7,7 +7,7 @@
 </script>
 
 <div>
-	<h4 class="text-center bg-base-content-faded rounded-t-lg py-1">
+	<h4 class="text-center bg-base-content text-base-100 rounded-t-lg py-1">
 		<span>
 			<RollIcon role={unit.role} size={24} />
 		</span>
@@ -15,9 +15,9 @@
 	</h4>
 	<div class="overflow-x-auto flex flex-col">
 		{#if unit.profiles.length > 0}
-			<table class="table table-zebra w-full border border-base-content-faded rounded-none">
+			<table class="table table-zebra w-full border border-base-content rounded-none">
 				<thead>
-					<tr class="border-b border-b-base-content-faded">
+					<tr class="border-b border-b-base-content">
 						<th class="align-top normal-case text-xs strip-radius">Name</th>
 						<th class="align-top normal-case text-xs text-center">M</th>
 						<th class="align-top normal-case text-xs text-center">WS</th>
@@ -56,9 +56,9 @@
 		{/if}
 
 		{#if unit.weapons.length > 0}
-			<table class="table table-zebra w-full border border-base-content-faded border-t-0">
+			<table class="table table-zebra w-full border border-base-content border-t-0">
 				<thead>
-					<tr class="border-b border-b-base-content-faded">
+					<tr class="border-b border-b-base-content">
 						<th class="align-top normal-case text-xs strip-radius">Weapon</th>
 						<th class="align-top normal-case text-xs text-center">Range</th>
 						<th class="align-top normal-case text-xs text-center">Type</th>
@@ -87,7 +87,7 @@
 		{/if}
 
 		{#if unit.abilities.length > 0}
-			<table class="table w-full border border-base-content-faded border-t-0">
+			<table class="table w-full border border-base-content border-t-0">
 				<tbody>
 					<tr>
 						<th class="align-top text-sm whitespace-normal w-1/5">Abilities:</th>
@@ -104,7 +104,7 @@
 		{/if}
 
 		{#if unit.factions.length > 0}
-			<table class="table w-full border border-base-content-faded border-t-0">
+			<table class="table w-full border border-base-content border-t-0">
 				<tbody>
 					<tr>
 						<th class="align-top text-sm whitespace-normal w-1/5 rounded-b-lg">Factions:</th>
@@ -121,7 +121,7 @@
 		{/if}
 
 		{#if unit.keywords.length > 0}
-			<table class="table w-full border border-base-content-faded border-t-0">
+			<table class="table w-full border border-base-content border-t-0">
 				<tbody>
 					<tr>
 						<th class="align-top text-sm whitespace-normal w-1/5 rounded-b-lg">Keywords:</th>

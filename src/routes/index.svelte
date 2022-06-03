@@ -147,7 +147,7 @@
 
 		{#if roster}
 			<div class="mt-6">
-				<p class="font-thin italic text-info">
+				<p class="font-light italic text-info">
 					If the preview below looks correct, click upload to save it!
 				</p>
 			</div>
