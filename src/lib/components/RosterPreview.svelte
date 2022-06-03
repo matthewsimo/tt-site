@@ -12,7 +12,7 @@
 	<RosterHeader {roster} />
 
 	{#each forces as { units = [], name, catalogueName, rules }, index}
-		<div class="overflow-x-auto max-w-5xl mx-auto my-8 border border-secondary rounded-lg">
+		<div class="overflow-x-auto max-w-5xl mx-auto my-8 border border-base-content rounded-lg">
 			<table class="table table-compact w-full">
 				<thead>
 					<tr>
