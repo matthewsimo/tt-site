@@ -1,18 +1,17 @@
-# create-svelte
+# tt site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Warhammer 40k Tabletop tools
 
-## Creating a project
+- pretty print your battlescribe 40k rosters
+- get a link to share
+- QR code for easy scanning & head-to-head match ups <sup>(coming soon)</sup>
+- game tools <sup>(coming soon)</sup>
+  - track objective score <sup>(coming soon)</sup>
+  - track wounds <sup>(coming soon)</sup>
+  - dice tool <sup>(coming soon)</sup>
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
+---
 
 ## Developing
 

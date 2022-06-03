@@ -117,7 +117,7 @@
 			</div>
 		</div>
 	{/if}
-	<h1 class="text-5xl text-center pb-10">40k Table Top Tools</h1>
+	<h1 class="text-5xl text-center pb-10">40k Tabletop Tools</h1>
 	<ul class="text-center text-lg list-inside pb-10 list-decimal mx-auto max-w-lg">
 		<li class="list-item">pretty print your battlescribe rosters</li>
 		<li class="list-item">upload, link, and share your rosters</li>
