@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { sortByRole, type Roster, type Unit } from '../parseRoster';
+import RollIcon from './RollIcon.svelte';
 	import RosterHeader from './RosterHeader.svelte';
 	import RosterUnit from './RosterUnit.svelte';
 
@@ -70,9 +71,9 @@
 		{#each [...rolesInRoster] as [role, unitsForRole]}
 			{#if currentTab === 0}
 				<div
-					class="text-center text-base bg-y-base-content border-y-2 py-2 mt-8 first:mt-2"
+					class="text-center text-primary-content bg-primary border-y-2 border-y-primary-content py-2 mt-8 first:mt-2"
 				>
-					{role}
+					<RollIcon {role} /> {role} <RollIcon {role} />
 				</div>
 			{/if}
 			{#if currentTab === 0 || role === tabs[currentTab].title}
