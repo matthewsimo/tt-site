@@ -117,11 +117,12 @@
 			</div>
 		</div>
 	{/if}
-	<h1 class="text-5xl text-center pb-10">40k Tabletop Tools</h1>
+	<h1 class="text-5xl text-center pb-10">40k Tabletop Tools<sup class="text-primary-content italic text-sm -top-8">beta</sup></h1>
 	<ul class="text-center text-lg list-inside pb-10 list-decimal mx-auto max-w-lg">
 		<li class="list-item">pretty print your battlescribe rosters</li>
 		<li class="list-item">upload, link, and share your rosters</li>
 	</ul>
+	<p class="text-center max-w-xl mx-auto mb-10 text-lg italic">For feedback or issues <a class="link link-hover text-primary-content" href="https://github.com/matthewsimo/tt-site/issues">go here.</a></p>
 
 	<form
 		class="mx-auto max-w-md mt-5"
