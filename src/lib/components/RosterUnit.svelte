@@ -12,6 +12,9 @@
 			<RollIcon role={unit.role} size={24} />
 		</span>
 		{unit.name}
+		{#if unit.keywords.includes('Warlord')}
+			<WarlordIcon />
+		{/if}
 	</h4>
 	<div class="overflow-x-auto flex flex-col">
 		{#if unit.profiles.length > 0}
@@ -34,9 +37,7 @@
 					{#each unit.profiles as profile}
 						<tr>
 							<td class="align-top whitespace-normal text-base strip-radius"
-								>{#if unit.keywords.includes('Warlord')}
-									<WarlordIcon />
-								{/if}{profile.name}
+								>{profile.name} {#if profile.count > 0}(x{profile.count}){/if}
 							</td>
 							<td class="align-top whitespace-normal text-base text-center">{profile.m}</td>
 							<td class="align-top whitespace-normal text-base text-center">{profile.ws}</td>
@@ -50,6 +51,20 @@
 								>{profile.sv}</td
 							>
 						</tr>
+						{#if profile.subProfiles.length > 0}
+						<tr>
+							<td colspan="10" class="align-top whitespace-normal text-sm italic px-12 strip-radius"
+							>
+								<ul class="list-disc">
+									{#each profile.subProfiles as subProfile }
+									<li>
+										{subProfile.name} (x{subProfile.count})
+									</li>
+									{/each}
+								</ul>
+							</td>
+							</tr>
+						{/if}
 					{/each}
 				</tbody>
 			</table>

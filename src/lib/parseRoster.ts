@@ -19,6 +19,7 @@ interface Cost {
 
 export interface UnitProfile {
 	name: string;
+	count: number;
 	m: string;
 	ws: string;
 	bs: string;
@@ -28,6 +29,7 @@ export interface UnitProfile {
 	a: string;
 	ld: string;
 	sv: string;
+	subProfiles: { name: string; count: number }[];
 }
 
 export interface WeaponProfile {
@@ -105,6 +107,7 @@ const parseRoster = (rawRoster: XMLDocument): Roster | undefined => {
 		forces: parseForces(rawRoster)
 	};
 
+	// console.log({ roster });
 	return roster;
 };
 
@@ -196,26 +199,69 @@ export const sortByRole = (unitA: Unit, unitB: Unit): number => {
 	return RoleWeight[unitA.role] - RoleWeight[unitB.role];
 };
 
+const buildProfile = (rawProfile: Element): UnitProfile => {
+	return {
+		name: rawProfile.getAttribute('name') || 'unknown',
+		m: rawProfile.querySelector('characteristic[name="M"]')?.textContent || '',
+		ws: rawProfile.querySelector('characteristic[name="WS"]')?.textContent || '',
+		bs: rawProfile.querySelector('characteristic[name="BS"]')?.textContent || '',
+		s: rawProfile.querySelector('characteristic[name="S"]')?.textContent || '',
+		t: rawProfile.querySelector('characteristic[name="T"]')?.textContent || '',
+		w: rawProfile.querySelector('characteristic[name="W"]')?.textContent || '',
+		a: rawProfile.querySelector('characteristic[name="A"]')?.textContent || '',
+		ld: rawProfile.querySelector('characteristic[name="Ld"]')?.textContent || '',
+		sv: rawProfile.querySelector('characteristic[name="Save"]')?.textContent || '',
+		count: 0,
+		subProfiles: []
+	};
+};
+
 const parseUnitProfiles = (rawUnit: Element): UnitProfile[] => {
+	const unitName = rawUnit.getAttribute('name');
+	const unitNumber = rawUnit.getAttribute('number');
+	const unitType = rawUnit.getAttribute('type');
+	// console.log({ unitName, unitNumber, unitType });
+	// console.log('================');
 	const profiles: UnitProfile[] = [];
+
 	const rawProfiles = rawUnit.querySelectorAll("profile[typeName='Unit'");
 	rawProfiles.forEach((rawProfile: Element) => {
-		const profile: UnitProfile = {
-			name: rawProfile.getAttribute('name') || 'unknown',
-			m: rawProfile.querySelector('characteristic[name="M"]')?.textContent || '',
-			ws: rawProfile.querySelector('characteristic[name="WS"]')?.textContent || '',
-			bs: rawProfile.querySelector('characteristic[name="BS"]')?.textContent || '',
-			s: rawProfile.querySelector('characteristic[name="S"]')?.textContent || '',
-			t: rawProfile.querySelector('characteristic[name="T"]')?.textContent || '',
-			w: rawProfile.querySelector('characteristic[name="W"]')?.textContent || '',
-			a: rawProfile.querySelector('characteristic[name="A"]')?.textContent || '',
-			ld: rawProfile.querySelector('characteristic[name="Ld"]')?.textContent || '',
-			sv: rawProfile.querySelector('characteristic[name="Save"]')?.textContent || ''
-		};
+		const profile = buildProfile(rawProfile);
+
+		if (unitType === 'unit') {
+			// console.log('UNIT', profile.name);
+			profile.subProfiles = [];
+
+			const rawSubProfiles = rawUnit.querySelectorAll(
+				`selection[type='model'][name^="${profile.name}"]`
+			);
+			rawSubProfiles.forEach((rawSubProfile: Element) => {
+				const subProfile = {
+					name: rawSubProfile.getAttribute('name') || 'unknown',
+					count: parseInt(rawSubProfile.getAttribute('number') || '0')
+				};
+				// console.log({ subProfile, json: xmlToJson(rawSubProfile) });
+				if (subProfile.name === profile.name) {
+					profile.count = subProfile.count;
+				} else {
+					profile.subProfiles.push(subProfile);
+				}
+			});
+			// const rawProfiles = rawUnit.querySelectorAll("profile[typeName='Unit'");
+			// rawProfiles.forEach((rawProfile: Element) => {
+			// 	profiles.push(buildProfile(rawProfile));
+			// });
+			// const matchingUnitSelection = rawUnit.querySelector(`selection[name^="${profile.name}"]`);
+			// const json = matchingUnitSelection ? xmlToJson(matchingUnitSelection) : null;
+			// const number = parseInt(matchingUnitSelection?.getAttribute('number') || '0');
+			// console.log('isUnit', { number, matchingUnitSelection, json });
+			// profile.number = number;
+		}
 
 		profiles.push(profile);
 	});
 
+	// console.log({ profiles, rawUnitJson: xmlToJson(rawUnit) });
 	return profiles;
 };
 

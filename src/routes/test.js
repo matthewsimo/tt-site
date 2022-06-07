@@ -1,9 +1,9 @@
 const xml = `<?xml version="1.0" encoding="utf-8"?>
 <roster xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 9th Edition" gameSystemRevision="216" id="c0b8-33c0-d86c-aa6c" name="Test roster" xmlns="http://www.battlescribe.net/schema/rosterSchema">
   <costs>
-    <cost typeId="e356-c769-5920-6e14" value="142" name=" PL" />
+    <cost typeId="e356-c769-5920-6e14" value="147" name=" PL" />
     <cost typeId="2d3b-b544-ad49-fb75" value="6" name="CP" />
-    <cost typeId="points" value="2680" name="pts" />
+    <cost typeId="points" value="2757" name="pts" />
   </costs>
   <costLimits />
   <forces>
@@ -46,59 +46,59 @@ const xml = `<?xml version="1.0" encoding="utf-8"?>
         <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast" />
       </publications>
       <categories>
-        <category primary="false" entryId="(No Category)" id="83cd-5fd5-eb0c-da8f" name="Uncategorised">
+        <category primary="false" entryId="(No Category)" id="b295-3107-bb62-57c6" name="Uncategorised">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="2b01-d6b8-5486-6fda" name="Configuration">
+        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="134b-d50f-9ae9-fb2f" name="Configuration">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="77d7-ce58-a4e1-44dc" name="Stratagems">
+        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="946d-ef1c-3025-1e29" name="Stratagems">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="a365-b14f-343e-5f93" name="No Force Org Slot">
+        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="653e-9e6b-5fad-5301" name="No Force Org Slot">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="ced2-d172-4540-9758" name="HQ">
+        <category primary="false" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="0ff1-3f17-ab30-dc24" name="HQ">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="a909-d6ca-306f-3780" name="Troops">
+        <category primary="false" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="71f6-38be-3458-55d6" name="Troops">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="d6af-7ac8-984a-11de" name="Elites">
+        <category primary="false" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="458e-5507-4403-c3c2" name="Elites">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="acc9-afba-a504-bd55" name="Fast Attack">
+        <category primary="false" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="a9c3-d94b-1441-4094" name="Fast Attack">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="f9d6-457f-0378-3a7d" name="Heavy Support">
+        <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="bcea-da9c-5fde-23d9" name="Heavy Support">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="e888-1504-aa61-95ff" id="c4d6-dd96-7df0-23af" name="Flyer">
+        <category primary="false" entryId="e888-1504-aa61-95ff" id="0fae-c5a5-6a5a-69ad" name="Flyer">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="1b66-3f5f-6705-079a" id="1a70-e155-bc98-e793" name="Dedicated Transport">
+        <category primary="false" entryId="1b66-3f5f-6705-079a" id="ea73-2373-3878-d0d5" name="Dedicated Transport">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="8d86-9490-0f7d-a5b5" id="3dd8-305f-f176-2ae2" name="Relic Elites">
+        <category primary="false" entryId="8d86-9490-0f7d-a5b5" id="bfc8-aa70-490b-923d" name="Relic Elites">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="6c4c-a416-b8cb-c380" id="2a1b-5aaf-ae74-38f3" name="Relic Heavy Support">
+        <category primary="false" entryId="6c4c-a416-b8cb-c380" id="d41d-76e9-98e1-e1c0" name="Relic Heavy Support">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="655f-e142-dfa9-11a4" id="10af-9c1e-ce40-9f74" name="Relic HQ">
+        <category primary="false" entryId="655f-e142-dfa9-11a4" id="f01e-49e6-407d-eed7" name="Relic HQ">
           <rules />
           <profiles />
         </category>
@@ -112,7 +112,7 @@ const xml = `<?xml version="1.0" encoding="utf-8"?>
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="70c3-5b7e-42eb-d2fb" name="Configuration">
+            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="4dc8-8097-e917-440f" name="Configuration">
               <rules />
               <profiles />
             </category>
@@ -149,7 +149,7 @@ Units with this attribute are eligible to declare a charge in a turn in which th
             <cost typeId="points" value="0" name="pts" />
           </costs>
           <categories>
-            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="ceac-00ec-2454-5f57" name="Configuration">
+            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="67bc-d3b6-4f48-dca9" name="Configuration">
               <rules />
               <profiles />
             </category>
@@ -165,7 +165,7 @@ Units with this attribute are eligible to declare a charge in a turn in which th
             <cost typeId="2d3b-b544-ad49-fb75" value="-1" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="c845-c72c-6afe-3fc2" id="d5ac-e959-82cb-9881" name="Stratagems">
+            <category primary="true" entryId="c845-c72c-6afe-3fc2" id="4f95-fc6b-ca19-a316" name="Stratagems">
               <rules />
               <profiles />
             </category>
@@ -181,35 +181,35 @@ Units with this attribute are eligible to declare a charge in a turn in which th
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="60c9-0c92-942f-7f84" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="cbd1-9f11-a92a-e5f4" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="6f3a-0e93-5211-1a55" id="08e5-2fa6-ae0b-3862" name="Autarch">
+            <category primary="false" entryId="6f3a-0e93-5211-1a55" id="5e70-1735-5d63-4336" name="Autarch">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ef18-746a-369f-43a4" id="3370-1f13-fa76-0495" name="Character">
+            <category primary="false" entryId="ef18-746a-369f-43a4" id="e824-e9ce-1e90-4ee2" name="Character">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="fe28-8215-fc70-6ffa" name="HQ">
+            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="745d-6fb8-bf36-46b8" name="HQ">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="c73c-9f63-3c6c-002f" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="037b-8182-a623-8260" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="f034-261c-c20a-db1b" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0550-a03f-77b4-f2e5" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="3884-6e9e-3562-c727" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="0ab8-3074-2e0e-f6f0" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="858e-1bd9-61c9-6dcf" id="b01e-b598-158a-031c" name="Asuryani Warlord">
+            <category primary="false" entryId="858e-1bd9-61c9-6dcf" id="8c69-5f6c-d1e3-92b9" name="Asuryani Warlord">
               <rules />
               <profiles />
             </category>
@@ -313,7 +313,7 @@ Units with this attribute are eligible to declare a charge in a turn in which th
                 <cost typeId="points" value="0" name="pts" />
               </costs>
               <categories>
-                <category primary="false" entryId="ae09-117e-a6fa-316b" id="f8bb-67f0-ac4b-8131" name="Warlord">
+                <category primary="false" entryId="ae09-117e-a6fa-316b" id="3323-c3bf-ae8c-06cc" name="Warlord">
                   <rules />
                   <profiles />
                 </category>
@@ -405,43 +405,43 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="b037-496e-6908-d7f4" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="49ba-77cf-6354-a86f" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ef18-746a-369f-43a4" id="3213-474d-14e5-8fbb" name="Character">
+            <category primary="false" entryId="ef18-746a-369f-43a4" id="a447-5d99-0349-7195" name="Character">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="f4d8-98a0-0eb0-1a97" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="9bab-729d-6197-4b55" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e5cb-a61e-a938-0031" id="e4b6-571f-f6cf-647a" name="Farseer Skyrunner">
+            <category primary="false" entryId="e5cb-a61e-a938-0031" id="7aaf-b523-0140-43e5" name="Farseer Skyrunner">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="1b4f-7bac-497f-8ae3" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="ac7c-d897-433c-9d57" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="1b3a-decd-581f-70b7" name="HQ">
+            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="877c-dee9-e67f-4f9a" name="HQ">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e691-aad7-d21c-1023" id="db75-a742-1fe5-df3f" name="Psyker">
+            <category primary="false" entryId="e691-aad7-d21c-1023" id="9493-35fe-eaed-1f6d" name="Psyker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="1b51-8fff-f94f-8c44" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="1686-1249-79a3-0fb8" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="d899-2921-0abf-272f" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="6f08-140c-a8f6-359c" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="47a3-e3b2-a520-1a21" id="b041-cb68-8adb-7770" name="Farseer">
+            <category primary="false" entryId="47a3-e3b2-a520-1a21" id="bf69-c24f-0291-825d" name="Farseer">
               <rules />
               <profiles />
             </category>
@@ -722,35 +722,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="4267-41bd-c305-ae49" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="89df-fbb9-8ff0-210d" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="3cb0-c44c-9958-3ac1" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="9956-bbf0-a20e-0cf8" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="8eed-4b8f-4af0-a972" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="7728-f2d5-65b5-8940" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="24f4-3aae-2457-afd3" name="Troops">
+            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="d458-4374-cbf0-e6a4" name="Troops">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="b2a4-1704-0dd9-5574" name="Guardians">
+            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="94f6-51b8-1ea2-517a" name="Guardians">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="1409-59fa-ed8d-f21c" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="64b5-7174-59ab-44d7" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="27b9-3960-586a-3749" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="9984-9617-ba8d-47b0" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="18ed-c84e-77ae-c059" id="0d67-94e9-17ce-d38c" name="Guardian Defenders">
+            <category primary="false" entryId="18ed-c84e-77ae-c059" id="985a-fa06-e833-1ad6" name="Guardian Defenders">
               <rules />
               <profiles />
             </category>
@@ -866,40 +866,40 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
         </selection>
         <selection number="1" type="unit" entryId="60ad-8279-f5f8-3c0f::05b8-3755-7efa-00e3" id="d20e-b106-73a9-5543" name="Storm Guardians">
           <costs>
-            <cost typeId="e356-c769-5920-6e14" value="4" name=" PL" />
+            <cost typeId="e356-c769-5920-6e14" value="8" name=" PL" />
             <cost typeId="points" value="0" name="pts" />
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="4a01-8c26-58c8-1fbc" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="5011-25a6-2c00-d290" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="7663-caf3-3fcf-3640" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="c176-7b07-d968-18a2" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="0951-81ba-4cc7-6d35" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="fa36-c9a6-ab9c-2472" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c767-c3b1-2157-1371" id="41d6-9e92-d2bc-59cd" name="Storm Guardians">
+            <category primary="false" entryId="c767-c3b1-2157-1371" id="9caf-6895-5e92-ba4c" name="Storm Guardians">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="b823-0362-8267-c7c8" name="Troops">
+            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="b8c9-0a8b-7ab2-a13e" name="Troops">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="3131-a721-091c-bfcc" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="bca5-b123-669a-a4ea" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="c8c3-43d3-5519-3ce3" name="Guardians">
+            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="f691-794c-a17d-15a6" name="Guardians">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="ae3e-142d-968b-48af" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="0f9b-3cd1-27ff-4298" name="Core">
               <rules />
               <profiles />
             </category>
@@ -995,6 +995,259 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
               <rules />
               <profiles />
             </selection>
+            <selection number="2" type="model" entryId="60ad-8279-f5f8-3c0f::fd83-3532-724f-2bbc" entryGroupId="60ad-8279-f5f8-3c0f::9ac0-5008-67f5-7acd" id="6ffc-7b7e-3189-1774" name="Storm Guardian - Aeldari Power Sword">
+              <costs>
+                <cost typeId="points" value="16" name="pts" />
+                <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+              </costs>
+              <categories />
+              <selections>
+                <selection number="2" type="upgrade" entryId="60ad-8279-f5f8-3c0f::1e84-c00d-ad9e-96a0::af39-c432-eb42-d32d" id="eb13-40ac-9626-e3a9" name="Aeldari Power Sword">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="10" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="60ad-8279-f5f8-3c0f::1e84-c00d-ad9e-96a0::bc90-0ae1-e8fa-d245::7b27-34bf-2a48-58dd" name="Aeldari Power Sword">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">Melee</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Melee</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">+1</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-3</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">-</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+                <selection number="2" type="upgrade" entryId="60ad-8279-f5f8-3c0f::2d13-fb1a-0144-8625::53b9-9fb9-92e8-e0f3" id="faee-f601-0b7b-3bff" name="Shuriken Pistol">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="points" value="0" name="pts" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules>
+                    <rule hidden="false" id="60ad-8279-f5f8-3c0f::2d13-fb1a-0144-8625::7202-e313-dbfd-89a9::e673-afb2-7449-f53b" name="Shuriken Weapons">
+                      <description>Many Aeldari weapons are shuriken weapons. Such a weapon will have an ability that reads 'Shuriken'. Each time an attack is made with a shuriken weapon, on an unmodified wound roll of 6, improve that attack's Armour Penetration characteristic by 2.</description>
+                      <modifiers />
+                      <modifierGroups />
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="60ad-8279-f5f8-3c0f::2d13-fb1a-0144-8625::7d02-9527-d7c4-f5b9::d884-56d3-dce3-03ff" name="Shuriken Pistol">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">12"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Pistol 1</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">4</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-1</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">Shuriken.</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+                <selection number="2" type="upgrade" entryId="60ad-8279-f5f8-3c0f::0f9a-b779-1a84-e5cf::6e72-b1d6-cb17-c7eb" id="ff99-3cf0-b149-0dff" name="Plasma Grenades">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="0" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" publicationId="1f62-db93-63f4-4dc7" page="190" id="60ad-8279-f5f8-3c0f::0f9a-b779-1a84-e5cf::8472-813d-5cdb-5960" name="Plasma Grenades">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">6"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Grenade D6</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">4</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-1</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">Blast</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+              </selections>
+              <rules />
+              <profiles />
+            </selection>
+            <selection number="1" type="model" entryId="60ad-8279-f5f8-3c0f::d224-9c72-25a0-9938" entryGroupId="60ad-8279-f5f8-3c0f::9ac0-5008-67f5-7acd" id="6629-ef98-e078-1c69" name="Storm Guardian - Guardian Fusion Gun">
+              <costs>
+                <cost typeId="points" value="8" name="pts" />
+                <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+              </costs>
+              <categories />
+              <selections>
+                <selection number="1" type="upgrade" entryId="60ad-8279-f5f8-3c0f::796d-9c9f-37bf-df55::84c2-cb59-3691-823f" id="3366-be90-8f3f-fbc3" name="Guardian Fusion Gun">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="10" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="60ad-8279-f5f8-3c0f::796d-9c9f-37bf-df55::07c2-aa57-47b2-b204::5fc8-6b80-eea4-94e4" name="Guardian Fusion Gun">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">12"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Assault 1</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">8</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-4</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">D6</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">If the target is within half range of this weapon, that attack has a Damage characteristic of D6+2.</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+                <selection number="1" type="upgrade" entryId="60ad-8279-f5f8-3c0f::62cb-9ee6-b75a-0c5a::6e72-b1d6-cb17-c7eb" id="159f-4d4f-4463-d97e" name="Plasma Grenades">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="0" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" publicationId="1f62-db93-63f4-4dc7" page="190" id="60ad-8279-f5f8-3c0f::62cb-9ee6-b75a-0c5a::8472-813d-5cdb-5960" name="Plasma Grenades">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">6"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Grenade D6</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">4</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-1</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">Blast</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+              </selections>
+              <rules />
+              <profiles />
+            </selection>
+            <selection number="1" type="model" entryId="60ad-8279-f5f8-3c0f::0436-1055-8f29-59c9" entryGroupId="60ad-8279-f5f8-3c0f::9ac0-5008-67f5-7acd" id="72c2-47e3-b288-d194" name="Storm Guardian - Aeldari Flamer">
+              <costs>
+                <cost typeId="points" value="8" name="pts" />
+                <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+              </costs>
+              <categories />
+              <selections>
+                <selection number="1" type="upgrade" entryId="60ad-8279-f5f8-3c0f::31f4-97ab-1ea3-3267::f2e0-b19b-eb9a-4560" publicationId="1f62-db93-63f4-4dc7" id="6b62-8bc7-f8a8-4d76" name="Aeldari Flamer">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="5" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="60ad-8279-f5f8-3c0f::31f4-97ab-1ea3-3267::9575-4712-1c1e-639e::1ae0-ced3-9cbe-402b" name="Aeldari Flamer">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">12"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Assault D6</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">4</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">0</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+                <selection number="1" type="upgrade" entryId="60ad-8279-f5f8-3c0f::ae58-3f84-9f0e-0a0f::6e72-b1d6-cb17-c7eb" id="3e31-063d-9493-803a" name="Plasma Grenades">
+                  <costs>
+                    <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
+                    <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+                    <cost typeId="points" value="0" name="pts" />
+                  </costs>
+                  <categories />
+                  <selections />
+                  <rules />
+                  <profiles>
+                    <profile typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" publicationId="1f62-db93-63f4-4dc7" page="190" id="60ad-8279-f5f8-3c0f::ae58-3f84-9f0e-0a0f::8472-813d-5cdb-5960" name="Plasma Grenades">
+                      <characteristics>
+                        <characteristic typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range">6"</characteristic>
+                        <characteristic typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type">Grenade D6</characteristic>
+                        <characteristic typeId="59b1-319e-ec13-d466" name="S">4</characteristic>
+                        <characteristic typeId="75aa-a838-b675-6484" name="AP">-1</characteristic>
+                        <characteristic typeId="ae8a-3137-d65b-4ca7" name="D">1</characteristic>
+                        <characteristic typeId="837d-5e63-aeb7-1410" name="Abilities">Blast</characteristic>
+                      </characteristics>
+                      <modifiers />
+                      <modifierGroups />
+                    </profile>
+                  </profiles>
+                </selection>
+              </selections>
+              <rules />
+              <profiles />
+            </selection>
+            <selection number="1" type="upgrade" entryId="60ad-8279-f5f8-3c0f::9b08-05b2-575a-fbc3" id="472b-c4b2-b45a-cfe4" name="Serpent Scale Platform">
+              <costs>
+                <cost typeId="points" value="20" name="pts" />
+                <cost typeId="e356-c769-5920-6e14" value="1" name=" PL" />
+                <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
+              </costs>
+              <categories />
+              <selections />
+              <rules />
+              <profiles>
+                <profile typeId="800f-21d0-4387-c943" typeName="Unit" hidden="false" id="60ad-8279-f5f8-3c0f::ad9b-3e92-93d6-7699" name="Serpent's Scale Platform">
+                  <characteristics>
+                    <characteristic typeId="0bdf-a96e-9e38-7779" name="M">7"</characteristic>
+                    <characteristic typeId="e7f0-1278-0250-df0c" name="WS">6+</characteristic>
+                    <characteristic typeId="381b-eb28-74c3-df5f" name="BS">3+</characteristic>
+                    <characteristic typeId="2218-aa3c-265f-2939" name="S">3</characteristic>
+                    <characteristic typeId="9c9f-9774-a358-3a39" name="T">3</characteristic>
+                    <characteristic typeId="f330-5e6e-4110-0978" name="W">2</characteristic>
+                    <characteristic typeId="13fc-b29b-31f2-ab9f" name="A">1</characteristic>
+                    <characteristic typeId="00ca-f8b8-876d-b705" name="Ld">7</characteristic>
+                    <characteristic typeId="c0df-df94-abd7-e8d3" name="Save">3+</characteristic>
+                  </characteristics>
+                  <modifiers />
+                  <modifierGroups />
+                </profile>
+                <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="60ad-8279-f5f8-3c0f::2f2f-d793-538e-b2be" name="Serpent Shield">
+                  <characteristics>
+                    <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">While a unit contains any models equipped with a serpent shield:
+Models in that unit have a 5+ invulnerable save against ranged attacks
+Each time a ranged attack is made against that unit, an unmodified wound roll of 1-2 for that attack fails, irrespective of any abilities that the weapon or the model making the attack may have.</characteristic>
+                  </characteristics>
+                  <modifiers />
+                  <modifierGroups />
+                </profile>
+                <profile typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="60ad-8279-f5f8-3c0f::561f-1d41-e4ce-eec5" name="Crewed Platform (Storm)">
+                  <characteristics>
+                    <characteristic typeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description">When the last Storm Guardian model in this unit is destroyed, any remaining Serpent's Scale Platform models in this unit are also destroyed. Serpent's Scale Platform models are not counted when determining a unit's Starting Strength, or whether that unit is below Half-strength. The destruction of Serpent's Scale Platform models is ignored for the purposes of Morale tests.</characteristic>
+                  </characteristics>
+                  <modifiers />
+                  <modifierGroups />
+                </profile>
+              </profiles>
+            </selection>
           </selections>
           <rules>
             <rule hidden="false" id="60ad-8279-f5f8-3c0f::16f3-c830-949b-e4b0::f5cf-ac08-7c58-c76d" name="Strands of Fate">
@@ -1043,39 +1296,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="9f74-50f0-6099-3138" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0e56-620f-a686-163a" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="1930-6b68-d147-8f15" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="8781-7dd7-43c2-8b37" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="3c33-366f-b849-18b9" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="4d1b-5a45-9614-5d35" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a814-fb66-a9ba-a309" id="86c3-45a9-ce9a-5519" name="Rangers">
+            <category primary="false" entryId="a814-fb66-a9ba-a309" id="07bd-6236-2bc6-2be1" name="Rangers">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="6323-327b-1067-45c1" name="Troops">
+            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="0084-9a63-f1c8-45ff" name="Troops">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="d28f-529e-b395-0c46" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="ff63-1905-8c57-cb3e" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="16b7-d499-6c93-69c2" name="Outcasts">
+            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="78bb-19d2-49ad-95d6" name="Outcasts">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="99d4-7624-43b3-1e4b" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="81cb-480c-f5d3-fd35" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="19fb-0a15-d628-4049" id="ab22-de55-1569-931a" name="Resonator Shard">
+            <category primary="false" entryId="19fb-0a15-d628-4049" id="c459-f1c5-516d-990e" name="Resonator Shard">
               <rules />
               <profiles />
             </category>
@@ -1201,39 +1454,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="points" value="0" name="pts" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="2b56-8567-8946-a187" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="429d-8077-e8b5-949c" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="76b8-648d-4d2f-8ce1" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="741b-a1fa-3d6f-3cd2" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="b919-052f-4dde-91f6" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="95d2-fbdc-b378-65e9" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="2729-ff57-79e2-86c6" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="e374-70b4-150b-3572" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="2113-4e17-faf5-7c42" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="7749-ece3-470d-3a0f" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e691-aad7-d21c-1023" id="0fda-cdd4-4117-d467" name="Psyker">
+            <category primary="false" entryId="e691-aad7-d21c-1023" id="5a3f-4563-7021-7185" name="Psyker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3422-62ae-2c7f-ad67" id="721e-a67e-659b-c5e0" name="Warlocks">
+            <category primary="false" entryId="3422-62ae-2c7f-ad67" id="a8d8-f93d-43d8-a4f5" name="Warlocks">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a5c6-ed78-9362-e64e" id="59bd-b27b-607a-64a9" name="Warlock Skyrunners">
+            <category primary="false" entryId="a5c6-ed78-9362-e64e" id="db1d-0bbf-c7ae-1287" name="Warlock Skyrunners">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="eac9-3579-f9e9-627b" name="Elites">
+            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="290f-c4c9-067b-af3d" name="Elites">
               <rules />
               <profiles />
             </category>
@@ -1466,39 +1719,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="points" value="0" name="pts" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="d963-739b-e3f0-4af5" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="994e-e35e-1a47-e3ac" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="8fc7-2d12-b57d-d42e" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="a002-d008-68da-c756" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="743c-5b2d-b896-5577" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="e007-1dfc-267a-d00c" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="a027-2d97-623f-c937" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="e2e0-4e3f-4122-39f6" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="6a2b-8834-8221-34af" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="ac93-5509-e690-2974" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e691-aad7-d21c-1023" id="1d88-aed2-8d2d-8730" name="Psyker">
+            <category primary="false" entryId="e691-aad7-d21c-1023" id="5a25-01f5-65b9-867e" name="Psyker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3422-62ae-2c7f-ad67" id="8cef-6341-0664-29f4" name="Warlocks">
+            <category primary="false" entryId="3422-62ae-2c7f-ad67" id="5bcb-ad22-4a26-a96d" name="Warlocks">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a5c6-ed78-9362-e64e" id="5700-2f66-c701-98f7" name="Warlock Skyrunners">
+            <category primary="false" entryId="a5c6-ed78-9362-e64e" id="e9a3-a09a-2266-3ffd" name="Warlock Skyrunners">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="6b0a-8ed4-78ff-8bc9" name="Elites">
+            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="92ac-b49d-6399-f64b" name="Elites">
               <rules />
               <profiles />
             </category>
@@ -1733,43 +1986,43 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="e55e-059d-d6d1-e1cc" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="f4cb-b895-981f-cfb4" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="b81a-3bb3-6f76-b009" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="f914-2845-6046-1e5a" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="d005-f079-a91b-4d53" name="Aspect Warrior">
+            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="3cd4-96fd-7634-5a5a" name="Aspect Warrior">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="c8d2-007f-4c2c-f565" name="Fast Attack">
+            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="74f4-4fe1-ac04-eb76" name="Fast Attack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="a18c-f2ca-efce-d17d" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="a1b4-34b5-d8de-3d8d" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="cd14-3306-7d15-b6ab" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="537d-923d-916f-29a2" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="0bca-9597-9a38-5c94" name="Jump Pack">
+            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="421a-c4c9-de5f-1727" name="Jump Pack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a7be-1381-4821-093a" id="8ec5-492c-010e-ebc9" name="Swooping Hawks">
+            <category primary="false" entryId="a7be-1381-4821-093a" id="3518-56b9-81e1-fb70" name="Swooping Hawks">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="5b20-6a23-85fe-96da" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="11c0-1821-b134-0c5c" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="e067-f666-452a-1d9c" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="a028-48a5-f12b-1f4c" name="Core">
               <rules />
               <profiles />
             </category>
@@ -1924,39 +2177,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="6107-8752-0c7e-1478" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="c0d4-acfc-5b13-12e7" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="9295-921b-9171-1ae2" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="d5ed-96e1-5a70-9901" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="ae3b-c94c-5a3a-b1c3" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="ba54-eace-b1a8-52a7" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="bbe8-d275-ead3-8df7" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="e405-d88d-94be-8afa" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="ed20-cd87-d034-58fb" name="Fast Attack">
+            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="1290-bd63-1359-5262" name="Fast Attack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="433c-3e09-8df8-854c" id="5ae2-0e5f-864e-2c20" name="Windriders">
+            <category primary="false" entryId="433c-3e09-8df8-854c" id="f469-d5c9-1731-2b28" name="Windriders">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="ed18-00a6-0954-5e14" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="7a33-7c68-777a-86a8" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="dde2-08d2-a796-b899" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="8ccf-91c2-2dca-a78c" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="77f7-96da-8047-f237" name="Guardians">
+            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="ad83-cebf-8ab6-05fe" name="Guardians">
               <rules />
               <profiles />
             </category>
@@ -2059,39 +2312,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="e946-be9c-0bad-7ea5" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="c5e2-9995-694c-7ebe" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="5ada-f2a3-3c6b-edf2" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="62c6-0341-2da7-99c8" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="c839-cf4e-ce3e-3756" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="81ba-c9c2-c5b9-4909" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="23f5-d126-5eb6-565e" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="6de9-2ac8-b0d2-1fa4" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="50d6-e0f9-0eb6-88c9" name="Fast Attack">
+            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="5072-723f-1c4b-2edf" name="Fast Attack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="433c-3e09-8df8-854c" id="f725-8e87-e1af-8eaa" name="Windriders">
+            <category primary="false" entryId="433c-3e09-8df8-854c" id="aadf-19aa-9681-3324" name="Windriders">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="a897-cddd-7858-6e0a" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="00db-ff53-7705-51cc" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="8365-f7d9-61e3-1cc3" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="4360-590e-783e-6423" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="4239-8248-36df-dfed" name="Guardians">
+            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="d29a-13e2-c52c-3d1e" name="Guardians">
               <rules />
               <profiles />
             </category>
@@ -2194,35 +2447,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="936c-6bab-4e79-4525" name="Heavy Support">
+            <category primary="true" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="0fea-faa6-ead9-d217" name="Heavy Support">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="987a-6224-0f1d-72b9" id="a29a-3032-cf55-0876" name="Night Spinner">
+            <category primary="false" entryId="987a-6224-0f1d-72b9" id="de3e-4fbc-4152-0bf4" name="Night Spinner">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="ec09-7d4b-73c0-86f6" name="Heavy Support">
+            <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="2738-33cd-e148-e11f" name="Heavy Support">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="f630-e55f-cb40-23ac" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="8f10-d325-92be-5270" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="2b12-ea28-6bda-2ef4" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="2a94-9f0e-1bc1-e1c0" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="450d-a014-224d-f1f6" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="f9b2-eea4-5557-001b" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="21f7-740a-23ed-ccf5" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="80af-0594-a5e6-f075" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c8fd-783f-3230-493e" id="1fb3-b5a6-d50c-4953" name="Vehicle">
+            <category primary="false" entryId="c8fd-783f-3230-493e" id="71c9-54ca-3c5e-61e9" name="Vehicle">
               <rules />
               <profiles />
             </category>
@@ -2378,35 +2631,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="b745-1dfc-4e7b-54e2" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="7be8-9c0a-43df-0697" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="f316-bd6a-3971-e40c" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="004c-9191-75a2-2249" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="b2ba-5d16-4db1-1975" name="Heavy Support">
+            <category primary="true" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="5c2c-b0dd-f3b4-3238" name="Heavy Support">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c8fd-783f-3230-493e" id="ce88-39da-102d-04b9" name="Vehicle">
+            <category primary="false" entryId="c8fd-783f-3230-493e" id="4331-8164-4bfd-a634" name="Vehicle">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ed16-2042-3626-0e38" id="f7a4-099e-daf1-9c2f" name="Support Weapon">
+            <category primary="false" entryId="ed16-2042-3626-0e38" id="37dd-e3ff-5554-2eff" name="Support Weapon">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ae37-74e2-8391-d0f8" id="4a7c-e8f0-9810-e8b8" name="Artillery">
+            <category primary="false" entryId="ae37-74e2-8391-d0f8" id="ce97-0013-492e-6e37" name="Artillery">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="99b9-400f-72d6-633c" name="Guardians">
+            <category primary="false" entryId="3d7b-e0f0-9b75-28e9" id="1a64-2284-e105-261d" name="Guardians">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="6b5e-fc04-7b03-4b64" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="5e9b-0e2e-4081-32d3" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
@@ -2494,35 +2747,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="1b66-3f5f-6705-079a" id="e8a1-ed0f-576b-a34c" name="Dedicated Transport">
+            <category primary="true" entryId="1b66-3f5f-6705-079a" id="125b-cad0-513a-2fdc" name="Dedicated Transport">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ab1c-3e0d-9e37-95f7" id="cfdf-76b2-9e4f-6db0" name="Wave Serpent">
+            <category primary="false" entryId="ab1c-3e0d-9e37-95f7" id="0881-398b-bcc5-4bca" name="Wave Serpent">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="06da-7260-cc6e-908b" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="7c79-901e-8a08-4d78" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="6cc4-1b62-8e8a-05cd" id="3675-9ba1-9648-2f02" name="Transport">
+            <category primary="false" entryId="6cc4-1b62-8e8a-05cd" id="20e0-2c05-4579-921d" name="Transport">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c8fd-783f-3230-493e" id="e0b0-ae54-0bc5-9738" name="Vehicle">
+            <category primary="false" entryId="c8fd-783f-3230-493e" id="93ae-ee93-95b2-f630" name="Vehicle">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="69ff-9d24-bb7d-c55c" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="bbf2-e19a-d046-54dc" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="6074-b253-527d-91a0" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="320c-433c-0304-febe" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="f1bb-bf04-a61a-8c3b" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="843b-2d8c-7d21-290c" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
@@ -2681,7 +2934,7 @@ Each time a ranged attack is made against this model, an unmodified woundroll of
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="8d31-a06d-5107-4e65" name="Configuration">
+            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="b978-e599-0f86-96b9" name="Configuration">
               <rules />
               <profiles />
             </category>
@@ -2709,35 +2962,35 @@ Each time a ranged attack is made against this model, an unmodified woundroll of
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="7503-b605-220e-32b7" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="2324-e430-6cae-5542" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="d97b-7b21-3b80-5f53" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="4e41-f28e-8ca4-537d" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="9f7e-58e4-8525-4ad1" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="9e4d-356f-19bf-59bf" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e6ce-8426-c595-9021" id="4827-2dba-b13a-3641" name="Phoenix">
+            <category primary="false" entryId="e6ce-8426-c595-9021" id="e90b-d2eb-5c66-c498" name="Phoenix">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c8fd-783f-3230-493e" id="76c3-a5e4-ae35-dcf6" name="Vehicle">
+            <category primary="false" entryId="c8fd-783f-3230-493e" id="db9d-8247-2003-9e1a" name="Vehicle">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="e888-1504-aa61-95ff" id="34fa-b6f6-b4db-0ab6" name="Flyer">
+            <category primary="true" entryId="e888-1504-aa61-95ff" id="48b9-e9e6-b759-d9eb" name="Flyer">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="d569-3d56-cd24-6a31" id="7e92-b725-daf4-2c1b" name="Aircraft">
+            <category primary="false" entryId="d569-3d56-cd24-6a31" id="f560-3dc7-c350-9dd2" name="Aircraft">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="7fac-2ad8-f8b3-e042" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="783e-421f-2aaf-77f4" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
@@ -2947,63 +3200,63 @@ Each time a ranged attack is made against this model, an unmodified woundroll of
         <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast" />
       </publications>
       <categories>
-        <category primary="false" entryId="(No Category)" id="0074-1629-7fe1-82a1" name="Uncategorised">
+        <category primary="false" entryId="(No Category)" id="a707-3e79-c081-bd65" name="Uncategorised">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="b451-435e-1c12-8871" name="Configuration">
+        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="50bd-ff47-a6eb-8ee7" name="Configuration">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="8f26-9d7f-4846-24ff" name="Stratagems">
+        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="bf1d-05f3-bd42-5ba5" name="Stratagems">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="63a8-671d-0845-a51b" name="No Force Org Slot">
+        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="1261-5694-5b9e-f5e6" name="No Force Org Slot">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="0f35-2c34-ba6a-8105" id="f677-6ac7-1ac7-2f8b" name="Agents of the Imperium">
+        <category primary="false" entryId="0f35-2c34-ba6a-8105" id="f8fb-e101-d73d-4f3f" name="Agents of the Imperium">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="577a-efc5-5971-8ea9" name="HQ">
+        <category primary="false" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="66ca-c22a-aa97-2dc3" name="HQ">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="a97f-b64e-b7af-747f" name="Troops">
+        <category primary="false" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="25a0-f7c1-d990-a4af" name="Troops">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="a4aa-4e32-efde-f014" name="Elites">
+        <category primary="false" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="00e1-4a3b-fc1d-5643" name="Elites">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="c579-caa4-61c9-64fb" name="Fast Attack">
+        <category primary="false" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="1eb1-b273-1d28-e2e9" name="Fast Attack">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="676c-a6d7-2aa5-cb2d" name="Heavy Support">
+        <category primary="false" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" id="f604-ec2c-68b3-b945" name="Heavy Support">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="e888-1504-aa61-95ff" id="fbf0-89a1-0ba9-a681" name="Flyer">
+        <category primary="false" entryId="e888-1504-aa61-95ff" id="4965-3a85-3ba4-8309" name="Flyer">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="1b66-3f5f-6705-079a" id="a43b-947f-639e-af6d" name="Dedicated Transport">
+        <category primary="false" entryId="1b66-3f5f-6705-079a" id="6538-4246-1f1c-b80f" name="Dedicated Transport">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="8d86-9490-0f7d-a5b5" id="f39d-9c66-cf3d-d3ed" name="Relic Elites">
+        <category primary="false" entryId="8d86-9490-0f7d-a5b5" id="4d58-cd75-39a9-044c" name="Relic Elites">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="6c4c-a416-b8cb-c380" id="cf9c-5344-1682-1c42" name="Relic Heavy Support">
+        <category primary="false" entryId="6c4c-a416-b8cb-c380" id="7425-f65d-c77f-7a31" name="Relic Heavy Support">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="655f-e142-dfa9-11a4" id="d04c-3fa9-e808-4536" name="Relic HQ">
+        <category primary="false" entryId="655f-e142-dfa9-11a4" id="63cf-ac53-c938-59d6" name="Relic HQ">
           <rules />
           <profiles />
         </category>
@@ -3017,7 +3270,7 @@ Each time a ranged attack is made against this model, an unmodified woundroll of
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="bd1c-7f64-f02e-480c" name="Configuration">
+            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="26f2-383c-dc07-0559" name="Configuration">
               <rules />
               <profiles />
             </category>
@@ -3054,47 +3307,47 @@ Units with this attribute are eligible to declare a charge in a turn in which th
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="8fc6-33de-d534-4ad9" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="6f7f-8228-62d0-f2eb" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="ad0a-0fd3-c666-64c9" name="Aspect Warrior">
+            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="e1d7-09ad-068c-1167" name="Aspect Warrior">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c91-b408-59c9-20cf" id="282d-d6ee-59ad-3b92" name="Baharroth">
+            <category primary="false" entryId="1c91-b408-59c9-20cf" id="51b4-eb96-63ce-cdaa" name="Baharroth">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ef18-746a-369f-43a4" id="6f3c-b731-8b1d-2efe" name="Character">
+            <category primary="false" entryId="ef18-746a-369f-43a4" id="0a2c-2ec9-14ca-2aa4" name="Character">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="497d-80b9-099f-359b" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="eee9-aa17-c67f-0598" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="1a66-814e-4d44-7f09" name="HQ">
+            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="70d6-d1e4-ca3e-2804" name="HQ">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="7268-ce73-035b-c849" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="7998-421c-ee32-68f9" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="db03-7da3-599b-dd0c" name="Jump Pack">
+            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="60ea-27ac-dc08-da63" name="Jump Pack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1df6-6b35-ab52-1df3" id="65c9-170f-7ec3-108d" name="Phoenix Lord">
+            <category primary="false" entryId="1df6-6b35-ab52-1df3" id="d470-8107-f03c-f15f" name="Phoenix Lord">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="b253-baad-21fe-41f8" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="7d19-bdb0-07ec-842a" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a7be-1381-4821-093a" id="3e2c-7563-cd52-513d" name="Swooping Hawks">
+            <category primary="false" entryId="a7be-1381-4821-093a" id="77cc-eaf0-13d3-e037" name="Swooping Hawks">
               <rules />
               <profiles />
             </category>
@@ -3215,39 +3468,39 @@ This model can never have a Relic or a Warlord Tait.</description>
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0755-1323-08e2-62ab" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="3936-16e9-d65c-a822" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="fedf-f6e6-46d1-66f0" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="b174-4476-65f4-678b" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="e8e5-c155-908a-9b68" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="f308-78ce-44d8-2ab4" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a814-fb66-a9ba-a309" id="02e4-9dec-d857-f967" name="Rangers">
+            <category primary="false" entryId="a814-fb66-a9ba-a309" id="ec8e-812a-da50-fd88" name="Rangers">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="d482-2c31-1ba4-435c" name="Troops">
+            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="0d0f-d9b7-274f-1931" name="Troops">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="a24d-1989-3d6f-d1bf" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="c2fe-1186-d771-1564" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="115a-88c3-a36c-c8f9" name="Outcasts">
+            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="74f2-778f-8852-8afa" name="Outcasts">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="26df-708e-4599-a9da" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="d489-4588-d99f-dc9d" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="19fb-0a15-d628-4049" id="33a3-ba32-857b-794a" name="Resonator Shard">
+            <category primary="false" entryId="19fb-0a15-d628-4049" id="aea2-bc0f-b12f-f887" name="Resonator Shard">
               <rules />
               <profiles />
             </category>
@@ -3373,43 +3626,43 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="b103-603d-ea76-1ed2" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="c370-3b5b-0d31-c7cc" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="285d-518b-d1d9-3d8e" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="d489-ba18-cc5e-14b7" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="fe5f-daaa-6548-2d4f" name="Aspect Warrior">
+            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="416b-9ba3-5e4e-2e6e" name="Aspect Warrior">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="3e05-ade1-5006-ebc7" name="Fast Attack">
+            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="fc3c-bdd9-45c2-ace9" name="Fast Attack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="1ba5-e3ee-e4a7-c417" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="cb2b-3761-8154-f160" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="fad5-0489-c806-0008" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="168c-1fc9-25b1-54b6" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="eb6b-0890-fd91-8644" name="Jump Pack">
+            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="8bd8-757f-e45e-2bff" name="Jump Pack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a7be-1381-4821-093a" id="3596-8880-faa8-b59a" name="Swooping Hawks">
+            <category primary="false" entryId="a7be-1381-4821-093a" id="b0ef-c8c6-a4ca-aa5d" name="Swooping Hawks">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="1420-cad7-7530-cbd7" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="e524-6071-4fa2-3c1c" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="d22c-ff48-1a97-8063" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="f5a1-9bc1-1ffd-d13b" name="Core">
               <rules />
               <profiles />
             </category>
@@ -3564,43 +3817,43 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="5768-aff3-8aff-4cb0" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="43e8-0e88-37ab-012e" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="b74f-d0b7-85e9-d818" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="e6e9-47cc-655f-57d1" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="8d82-0910-7d28-a715" name="Aspect Warrior">
+            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="3c78-11dc-699a-0f88" name="Aspect Warrior">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="0f25-069c-f635-201d" name="Fast Attack">
+            <category primary="true" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" id="196c-db8a-0b98-1f3c" name="Fast Attack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="7f70-2fde-9b44-204c" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="6509-96ec-c6f1-b873" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="a8ad-c026-5b7a-3825" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="207f-d13d-271b-021b" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="a314-b11a-dde0-9302" name="Jump Pack">
+            <category primary="false" entryId="f627-f23e-a3b4-dc2c" id="07e8-db5a-3ba3-3463" name="Jump Pack">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a7be-1381-4821-093a" id="5c31-5470-1c42-eaf8" name="Swooping Hawks">
+            <category primary="false" entryId="a7be-1381-4821-093a" id="76d2-30ef-396c-e953" name="Swooping Hawks">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="4c72-cb16-a35e-7c70" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="9258-b05e-f65c-f0bb" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="a927-beb0-83e2-01f1" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="ecf2-d490-a81b-b526" name="Core">
               <rules />
               <profiles />
             </category>
@@ -3755,35 +4008,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="3fc2-b95e-e521-7e82" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="9851-cede-3044-fed4" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="6046-f5cc-bdba-3d0a" name="Aspect Warrior">
+            <category primary="false" entryId="c1a6-1c19-4bba-5f28" id="8e77-cfea-624a-e17c" name="Aspect Warrior">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="f09d-c043-9331-30d7" id="b017-81ee-f223-7a7c" name="Dire Avengers">
+            <category primary="false" entryId="f09d-c043-9331-30d7" id="6079-dd3c-7eaf-e633" name="Dire Avengers">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="10a7-8077-dacd-d09c" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="7de0-7cc6-9cd5-1476" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="9eb5-5b9a-7e4a-9cc5" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="2f15-294e-be79-a823" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="1b40-ee04-052f-5324" name="Elites">
+            <category primary="true" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" id="7e68-b1bc-b682-d690" name="Elites">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="3f63-5097-a036-4fe6" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="f1cf-4314-2604-9726" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="c40e-db8c-32fa-36a5" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="c269-386e-66bf-8be9" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
@@ -4024,43 +4277,43 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="7e46-734d-2953-11f3" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="8178-d71a-f018-c0ee" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="ef18-746a-369f-43a4" id="54c0-d429-60ee-028f" name="Character">
+            <category primary="false" entryId="ef18-746a-369f-43a4" id="1c00-ae2e-52db-668a" name="Character">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1c6f-0311-3eba-3180" id="0426-d6dd-9e5c-94ca" name="Biker">
+            <category primary="false" entryId="1c6f-0311-3eba-3180" id="6a3d-6197-5f18-0dd2" name="Biker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e5cb-a61e-a938-0031" id="68b3-aa53-9ad4-842f" name="Farseer Skyrunner">
+            <category primary="false" entryId="e5cb-a61e-a938-0031" id="dd15-985b-06ca-71b5" name="Farseer Skyrunner">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="1e22-8009-f8b4-66f3" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="0def-95c0-8d4a-e4eb" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="c693-dfa4-de4a-151a" name="HQ">
+            <category primary="true" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" id="8aff-9bed-17d4-068d" name="HQ">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e691-aad7-d21c-1023" id="be27-ae5a-4330-a017" name="Psyker">
+            <category primary="false" entryId="e691-aad7-d21c-1023" id="ff4c-9ee2-9c30-1850" name="Psyker">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="bff0-4f9a-32aa-e818" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="0959-75f3-e8ba-f2b7" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="61c1-30c4-1732-b13c" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="a86c-b32b-5a1c-1926" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="47a3-e3b2-a520-1a21" id="eb9b-990a-2705-067a" name="Farseer">
+            <category primary="false" entryId="47a3-e3b2-a520-1a21" id="06cf-890f-2046-59af" name="Farseer">
               <rules />
               <profiles />
             </category>
@@ -4296,39 +4549,39 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0d16-f41d-f946-8653" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="a9cb-ca3d-6293-f76e" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="33a6-b169-4590-48e7" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="45e4-9222-6442-e1fd" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="b017-9d1c-968c-9bc1" name="Infantry">
+            <category primary="false" entryId="3d52-fccf-10c0-3fae" id="e28e-abfd-131d-7dc8" name="Infantry">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="a814-fb66-a9ba-a309" id="9c3d-a41f-f1e0-2005" name="Rangers">
+            <category primary="false" entryId="a814-fb66-a9ba-a309" id="d30b-5cbb-544c-0f86" name="Rangers">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="3c44-cac8-eea8-87ea" name="Troops">
+            <category primary="true" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" id="bde6-f62c-6b92-cd9e" name="Troops">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="dcd5-bf7e-95de-728f" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="5893-1df9-1103-c497" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="698c-9185-880c-bdee" name="Outcasts">
+            <category primary="false" entryId="8a3d-75e3-93ae-6d09" id="34d5-29ba-1613-3c62" name="Outcasts">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="08f1-d244-eb44-7e01" id="e152-5817-f751-2fbb" name="Core">
+            <category primary="false" entryId="08f1-d244-eb44-7e01" id="882b-72f6-d58a-c37c" name="Core">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="19fb-0a15-d628-4049" id="a91d-da1c-e6be-fc19" name="Resonator Shard">
+            <category primary="false" entryId="19fb-0a15-d628-4049" id="eea6-4af0-6029-d6de" name="Resonator Shard">
               <rules />
               <profiles />
             </category>
@@ -4454,7 +4707,7 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="points" value="0" name="pts" />
           </costs>
           <categories>
-            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="8d28-da86-0e5a-7601" name="Configuration">
+            <category primary="true" entryId="fcff-0f21-93e6-1ddc" id="011d-dde9-4a56-b2ab" name="Configuration">
               <rules />
               <profiles />
             </category>
@@ -4470,35 +4723,35 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0d3c-937a-a004-edbb" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="0dc4-21d3-e3ca-dbb8" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="a69b-1afb-bb59-57a4" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="316b-0392-41c3-95e5" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3117-16d8-fcef-4f56" id="fd69-10ff-8f94-0568" name="Fly">
+            <category primary="false" entryId="3117-16d8-fcef-4f56" id="81f3-b265-fc36-b2a9" name="Fly">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e6ce-8426-c595-9021" id="a494-b100-48fc-5795" name="Phoenix">
+            <category primary="false" entryId="e6ce-8426-c595-9021" id="6f76-d8a6-7fee-e6cd" name="Phoenix">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="c8fd-783f-3230-493e" id="6675-8295-e525-79d0" name="Vehicle">
+            <category primary="false" entryId="c8fd-783f-3230-493e" id="2bf0-169e-e7ef-6213" name="Vehicle">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="e888-1504-aa61-95ff" id="35c0-b554-bd81-b284" name="Flyer">
+            <category primary="true" entryId="e888-1504-aa61-95ff" id="f0e6-6543-08c4-77da" name="Flyer">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="d569-3d56-cd24-6a31" id="b64a-2ef0-fb8b-9cba" name="Aircraft">
+            <category primary="false" entryId="d569-3d56-cd24-6a31" id="ba02-7e4c-a63c-48e9" name="Aircraft">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="bbec-66de-9c62-6948" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="52e2-c2ad-304c-149f" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
@@ -4708,23 +4961,23 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
         <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast" />
       </publications>
       <categories>
-        <category primary="false" entryId="(No Category)" id="f6c8-0eea-5a75-3839" name="Uncategorised">
+        <category primary="false" entryId="(No Category)" id="84f9-7449-b3d2-228f" name="Uncategorised">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="3f67-2b91-1cb4-9350" name="Configuration">
+        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="eb42-48dd-fdf4-d02b" name="Configuration">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="787c-5f88-e77a-1a96" name="Stratagems">
+        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="03b4-4b5e-bb13-73a4" name="Stratagems">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="9a27-b440-6dd7-82bb" name="No Force Org Slot">
+        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="da2c-af80-6e55-b061" name="No Force Org Slot">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="d713cda3-5d0f-40d8-b621-69233263ec2a" id="517d-4adf-4262-8bc7" name="Fortification">
+        <category primary="false" entryId="d713cda3-5d0f-40d8-b621-69233263ec2a" id="cc71-b030-11fb-3817" name="Fortification">
           <rules />
           <profiles />
         </category>
@@ -4738,27 +4991,27 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="true" entryId="d713cda3-5d0f-40d8-b621-69233263ec2a" id="5b7c-fba4-2cbc-78c1" name="Fortification">
+            <category primary="true" entryId="d713cda3-5d0f-40d8-b621-69233263ec2a" id="e80f-bb2b-33ff-ef19" name="Fortification">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="6715-6aac-fe50-4cb1" id="a2c7-12fd-dffb-cae1" name="Terrain Feature">
+            <category primary="false" entryId="6715-6aac-fe50-4cb1" id="1ee6-7dd6-529f-62d7" name="Terrain Feature">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="7d4c-822b-b174-1e96" id="b104-d9f7-2064-bff1" name="Obstacle">
+            <category primary="false" entryId="7d4c-822b-b174-1e96" id="b934-69ef-c8c3-12f1" name="Obstacle">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="af45-7ddf-e81a-8128" id="6d86-1cd1-a0df-edcc" name="Webway Gate">
+            <category primary="false" entryId="af45-7ddf-e81a-8128" id="16bd-976f-aa09-dfad" name="Webway Gate">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="3696-e2a9-64dc-9a59" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="53f4-7b00-1a53-b624" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="1114-7875-d463-df17" id="9318-262d-16e6-215f" name="Faction: Aeldari">
+            <category primary="false" entryId="1114-7875-d463-df17" id="1965-f08d-3346-f51f" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
@@ -4832,75 +5085,75 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
         <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast" />
       </publications>
       <categories>
-        <category primary="false" entryId="(No Category)" id="aa1d-4f73-dcf3-93bb" name="Uncategorised">
+        <category primary="false" entryId="(No Category)" id="4369-13bc-4644-d758" name="Uncategorised">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="2ef6-baad-1048-63dd" name="Configuration">
+        <category primary="false" entryId="fcff-0f21-93e6-1ddc" id="f79f-9a65-5136-7924" name="Configuration">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="21e1-8ef1-5629-1e4a" name="Stratagems">
+        <category primary="false" entryId="c845-c72c-6afe-3fc2" id="5db9-d2a6-4096-2f9c" name="Stratagems">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="fc9f-6a97-a76b-5f29" name="No Force Org Slot">
+        <category primary="false" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" id="cc5d-0c53-1e4f-887f" name="No Force Org Slot">
           <rules />
           <profiles />
         </category>
-        <category primary="false" entryId="c888f08a-6cea-4a01-8126-d374a9231554" id="3d39-6790-d622-a466" name="Lord of War">
+        <category primary="false" entryId="c888f08a-6cea-4a01-8126-d374a9231554" id="6725-3598-d664-7cad" name="Lord of War">
           <rules />
           <profiles />
         </category>
       </categories>
       <forces />
       <selections>
-        <selection number="1" type="model" entryId="0265-3236-df76-1147::c400-a060-dd8f-0df3" publicationId="1f62-db93-63f4-4dc7" page="178" id="60e8-a3ea-aaf0-82bc" name="Wraithknight">
+        <selection number="1" type="model" entryId="0265-3236-df76-1147::c400-a060-dd8f-0df3" publicationId="1f62-db93-63f4-4dc7" page="178" id="1c0f-0114-0092-1e9d" name="Wraithknight">
           <costs>
             <cost typeId="e356-c769-5920-6e14" value="23" name=" PL" />
             <cost typeId="points" value="400" name="pts" />
             <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
           </costs>
           <categories>
-            <category primary="false" entryId="fb5a-2f35-6253-b891" id="b68b-4600-7cbd-d127" name="Faction: &lt;Craftworld&gt;">
+            <category primary="false" entryId="fb5a-2f35-6253-b891" id="6575-9831-7a43-d175" name="Faction: &lt;Craftworld&gt;">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="c4dc-2c54-5e32-e16d" name="Faction: Aeldari">
+            <category primary="false" entryId="05e9-e880-b1fb-ce90" id="21f6-111b-f0ef-0b93" name="Faction: Aeldari">
               <rules />
               <profiles />
             </category>
-            <category primary="true" entryId="c888f08a-6cea-4a01-8126-d374a9231554" id="8253-b8dc-ed5d-27fe" name="Lord of War">
+            <category primary="true" entryId="c888f08a-6cea-4a01-8126-d374a9231554" id="537d-a6b4-d632-8220" name="Lord of War">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="3b77-decb-d468-6bcc" id="0806-e1b8-b0b3-3f6c" name="Monster">
+            <category primary="false" entryId="3b77-decb-d468-6bcc" id="38c2-dba0-2868-2bdf" name="Monster">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="e914-5eb3-6f82-d973" id="3ecf-b2b0-44e3-7379" name="Wraithknight">
+            <category primary="false" entryId="e914-5eb3-6f82-d973" id="0fff-6efe-40ae-f88e" name="Wraithknight">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="9a3e-947f-26da-d343" id="1e35-ad5a-92df-05cb" name="Faction: Spirit Host">
+            <category primary="false" entryId="9a3e-947f-26da-d343" id="2e44-f017-63f1-3e69" name="Faction: Spirit Host">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="bdda-36f0-4f32-1639" id="d221-a38f-80cd-2127" name="Titanic">
+            <category primary="false" entryId="bdda-36f0-4f32-1639" id="147e-4679-ae08-2bee" name="Titanic">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="be4f-b265-1ffd-36cd" id="15d3-7f7d-c8b4-1348" name="Wraith Construct">
+            <category primary="false" entryId="be4f-b265-1ffd-36cd" id="9eac-35e2-1eb5-341e" name="Wraith Construct">
               <rules />
               <profiles />
             </category>
-            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="e4cc-44ae-b813-7266" name="Faction: Asuryani">
+            <category primary="false" entryId="20fc-5c6e-4a04-320f" id="e69f-7122-fd83-5aba" name="Faction: Asuryani">
               <rules />
               <profiles />
             </category>
           </categories>
           <selections>
-            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::fd1b-09ba-10fe-1823::d7a7-293c-07bb-6de2" id="887e-e9e8-6253-5792" name="Titanic Feet">
+            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::fd1b-09ba-10fe-1823::d7a7-293c-07bb-6de2" id="655d-d337-8973-6eaa" name="Titanic Feet">
               <costs>
                 <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
                 <cost typeId="points" value="0" name="pts" />
@@ -4924,7 +5177,7 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
                 </profile>
               </profiles>
             </selection>
-            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::d86e-353b-5c08-8134" entryGroupId="0265-3236-df76-1147::2edc-4b67-5eb2-2925" id="98f0-5f6a-c9a7-a406" name="Scattershield">
+            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::d86e-353b-5c08-8134" entryGroupId="0265-3236-df76-1147::2edc-4b67-5eb2-2925" id="ddbb-1d0e-6977-d48c" name="Scattershield">
               <costs>
                 <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
                 <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
@@ -4943,7 +5196,7 @@ If a unit makes a Battle Focus move and any of its models wish to move over any 
                 </profile>
               </profiles>
             </selection>
-            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::e9ba-8545-a3c1-040c" entryGroupId="0265-3236-df76-1147::04a3-01d3-3039-d3b6" id="8400-7990-c49e-d11b" name="Titanic Ghostglaive">
+            <selection number="1" type="upgrade" entryId="0265-3236-df76-1147::e9ba-8545-a3c1-040c" entryGroupId="0265-3236-df76-1147::04a3-01d3-3039-d3b6" id="8363-01eb-63e1-991e" name="Titanic Ghostglaive">
               <costs>
                 <cost typeId="e356-c769-5920-6e14" value="0" name=" PL" />
                 <cost typeId="2d3b-b544-ad49-fb75" value="0" name="CP" />
