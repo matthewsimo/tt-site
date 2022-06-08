@@ -107,14 +107,11 @@ const parseRoster = (rawRoster: XMLDocument): Roster | undefined => {
 		forces: parseForces(rawRoster)
 	};
 
-	// console.log({ roster });
 	return roster;
 };
 
 const parseForces = (rawRoster: XMLDocument): Force[] => {
 	const forces: Force[] = [];
-
-	// console.log({ rawRoster, json: xmlToJson(rawRoster) });
 
 	const forceEls = rawRoster.querySelectorAll('roster > forces > force') || [];
 	for (const forceEl of Array.from(forceEls)) {
@@ -148,8 +145,6 @@ const parseRules = (rawForce: Element): any[] => {
 
 				if (subrules.length > 0) {
 					subrules.forEach((subrule) => {
-						// console.log({ subrule, json: xmlToJson(subrule) });
-
 						const rule = {
 							title: `${rawRule.getAttribute('name')}: ${subrule.getAttribute('name')}`,
 							content: Array.from(subrule.querySelectorAll('characteristic')).map(
@@ -167,7 +162,6 @@ const parseRules = (rawForce: Element): any[] => {
 					rules.push(rule);
 				}
 			}
-			// console.log({ rawRule, json: xmlToJson(rawRule), rules });
 		});
 
 	return rules;
@@ -217,51 +211,51 @@ const buildProfile = (rawProfile: Element): UnitProfile => {
 };
 
 const parseUnitProfiles = (rawUnit: Element): UnitProfile[] => {
-	const unitName = rawUnit.getAttribute('name');
-	const unitNumber = rawUnit.getAttribute('number');
 	const unitType = rawUnit.getAttribute('type');
-	// console.log({ unitName, unitNumber, unitType });
-	// console.log('================');
 	const profiles: UnitProfile[] = [];
 
-	const rawProfiles = rawUnit.querySelectorAll("profile[typeName='Unit'");
-	rawProfiles.forEach((rawProfile: Element) => {
-		const profile = buildProfile(rawProfile);
+	if (unitType === 'model') {
+		const rawProfiles = rawUnit.querySelectorAll('profile[typeName="Unit"');
+		rawProfiles.forEach((rawProfile: Element) => {
+			const profile = buildProfile(rawProfile);
+			profiles.push(profile);
+		});
+	} else if (unitType === 'unit') {
+		const rawUnitProfiles = rawUnit.querySelectorAll(
+			':scope > profiles > profile[typeName="Unit"]'
+		);
 
-		if (unitType === 'unit') {
-			// console.log('UNIT', profile.name);
-			profile.subProfiles = [];
+		// If the Unit has a profile directly
+		if (rawUnitProfiles.length > 0) {
+			rawUnitProfiles.forEach((rawUnitProfile: Element) => {
+				const profile = buildProfile(rawUnitProfile);
 
-			const rawSubProfiles = rawUnit.querySelectorAll(
-				`selection[type='model'][name^="${profile.name}"]`
-			);
-			rawSubProfiles.forEach((rawSubProfile: Element) => {
-				const subProfile = {
-					name: rawSubProfile.getAttribute('name') || 'unknown',
-					count: parseInt(rawSubProfile.getAttribute('number') || '0')
-				};
-				// console.log({ subProfile, json: xmlToJson(rawSubProfile) });
-				if (subProfile.name === profile.name) {
-					profile.count = subProfile.count;
-				} else {
+				profile.subProfiles = [];
+				const rawSubProfiles = rawUnit.querySelectorAll(`selection[type='model']`);
+				rawSubProfiles.forEach((rawSubProfile: Element) => {
+					const subProfile = {
+						name: rawSubProfile.getAttribute('name') || 'unknown',
+						count: parseInt(rawSubProfile.getAttribute('number') || '0')
+					};
 					profile.subProfiles.push(subProfile);
-				}
+				});
+				profiles.push(profile);
 			});
-			// const rawProfiles = rawUnit.querySelectorAll("profile[typeName='Unit'");
-			// rawProfiles.forEach((rawProfile: Element) => {
-			// 	profiles.push(buildProfile(rawProfile));
-			// });
-			// const matchingUnitSelection = rawUnit.querySelector(`selection[name^="${profile.name}"]`);
-			// const json = matchingUnitSelection ? xmlToJson(matchingUnitSelection) : null;
-			// const number = parseInt(matchingUnitSelection?.getAttribute('number') || '0');
-			// console.log('isUnit', { number, matchingUnitSelection, json });
-			// profile.number = number;
+			// Unit has selections that has profiles
+		} else {
+			const rawProfiles = rawUnit.querySelectorAll('profile[typeName="Unit"');
+			rawProfiles.forEach((rawProfile: Element) => {
+				const profile = buildProfile(rawProfile);
+				const model = rawProfile.closest(`selection[type='model']`);
+				if (model) {
+					profile.name = model.getAttribute('name') || 'unknown';
+					profile.count = parseInt(model.getAttribute('number') || '0');
+				}
+				profiles.push(profile);
+			});
 		}
+	}
 
-		profiles.push(profile);
-	});
-
-	// console.log({ profiles, rawUnitJson: xmlToJson(rawUnit) });
 	return profiles;
 };
 
@@ -379,8 +373,6 @@ const parseUnits = (rawForce: Element): Unit[] => {
 					factions,
 					keywords
 				};
-
-				// console.log({ unit, selection, json: xmlToJson(selection) });
 
 				units.push(unit);
 			}
