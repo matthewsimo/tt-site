@@ -117,49 +117,58 @@
 			</div>
 		</div>
 	{/if}
-	<h1 class="text-5xl text-center pb-10">40k Tabletop Tools<sup class="text-primary-content italic text-sm -top-8">beta</sup></h1>
-	<ul class="text-center text-lg list-inside pb-10 list-decimal mx-auto max-w-lg">
-		<li class="list-item">pretty print your battlescribe rosters</li>
-		<li class="list-item">upload, link, and share your rosters</li>
-	</ul>
-	<p class="text-center max-w-xl mx-auto mb-10 text-lg italic">For feedback or issues <a class="link link-hover text-primary-content" href="https://github.com/matthewsimo/tt-site/issues">go here.</a></p>
 
-	<form
-		class="mx-auto max-w-md mt-5"
-		method="post"
-		enctype="multipart/form-data"
-		on:submit|preventDefault={handleSubmit}
-	>
-		<div
-			class="form-control w-full m-0 p-1.5 text-neutral-content font-normal bg-neutral rounded bg-clip-padding border transition ease-in-out focus:text-base focus:bg-neutral focus:border-primary-focus focus:outline-none"
-		>
-			<input
-				class="cursor-pointer w-full"
-				id="roster-file"
-				name="roster-file"
-				type="file"
-				accept="text/xml,application/xml,application/zip,.ros,.rosz"
-				on:change={handleFile}
-			/>
-		</div>
-		<label class="block label cursor-pointer text-sm label-text italic p-2" for="roster-file"
-			>Upload a .ros or .rosz file</label
-		>
+	<div class="hero my-10">
+		<div class="hero-content text-center">
+			<div class="max-w-lg">
+				<h1 class="text-5xl font-bold ">
+					40k Tabletop Tools<sup class="text-primary-content italic text-sm -top-8">beta</sup>
+				</h1>
+				<p class="py-6">Pretty print your battlescribe rosters then link and share</p>
 
-		{#if roster}
-			<div class="mt-6">
-				<p class="font-light italic text-info">
-					If the preview below looks correct, click upload to save it!
-				</p>
+				<form
+					class="mx-auto max-w-md mt-5"
+					method="post"
+					enctype="multipart/form-data"
+					on:submit|preventDefault={handleSubmit}
+				>
+					<div
+						class="form-control w-full m-0 p-1.5 text-neutral-content font-normal bg-neutral rounded bg-clip-padding border transition ease-in-out focus:text-base focus:bg-neutral focus:border-primary-focus focus:outline-none"
+					>
+						<input
+							class="cursor-pointer w-full"
+							id="roster-file"
+							name="roster-file"
+							type="file"
+							accept="text/xml,application/xml,application/zip,.ros,.rosz"
+							on:change={handleFile}
+						/>
+					</div>
+					<label class="block label cursor-pointer text-sm label-text italic p-2" for="roster-file"
+						>Upload a .ros or .rosz file</label
+					>
+
+					{#if roster}
+						<div class="mt-6">
+							<p class="font-light italic text-info">
+								If the preview below looks correct, click upload to save it!
+							</p>
+						</div>
+					{/if}
+
+					{#if processing}
+						<button disabled class="btn btn-lg btn-primary rounded-lg shadow-lg mt-5 loading" type="submit"
+							>Upload</button
+						>
+					{:else}
+						<button disabled={!roster} class="btn btn-lg btn-primary rounded-lg shadow-lg mt-5" type="submit"
+							>Upload</button
+						>
+					{/if}
+				</form>
 			</div>
-		{/if}
-
-		{#if processing}
-			<button disabled class="btn btn-primary btn-sm mt-5 loading" type="submit">Upload</button>
-		{:else}
-			<button disabled={!roster} class="btn btn-primary btn-sm mt-5" type="submit">Upload</button>
-		{/if}
-	</form>
+		</div>
+	</div>
 </div>
 
 {#if Boolean(roster)}
@@ -173,5 +182,9 @@
 <style>
 	input[type='file']::file-selector-button {
 		cursor: pointer;
+	}
+
+	.hero {
+		min-height: 50vh;
 	}
 </style>
