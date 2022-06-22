@@ -51,6 +51,154 @@
 
 <div class="collapse">
 	<input type="checkbox" class="peer" />
+	<div class="collapse-title">Card</div>
+	<div class="collapse-content space-y-6">
+		<div>
+			<h3 class="mb-6">Normal</h3>
+			<div class="card w-96 shadow-xl">
+				<div class="card-body">
+					<div class="card-actions justify-end">
+						<div class="form-control w-full max-w-xs">
+							<label class="label" for="dice-num">
+								<span class="label-text">Number of Dice</span>
+							</label>
+							<input
+								id="dice-num"
+								type="number"
+								min="1"
+								step="1"
+								placeholder="Number of dice"
+								class="input input-bordered w-full max-w-xs"
+							/>
+						</div>
+
+						<select class="select select-bordered w-full max-w-xs">
+							<option disabled selected value={undefined}>Dice Type</option>
+							<option>D6</option>
+							<option>D3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h3 class="mb-6">Primary</h3>
+			<div class="card w-96 shadow-xl bg-primary text-primary-content">
+				<div class="card-body">
+					<div class="card-actions justify-end">
+						<div class="form-control w-full max-w-xs">
+							<label class="label" for="dice-num">
+								<span class="label-text">Number of Dice</span>
+							</label>
+							<input
+								id="dice-num"
+								type="number"
+								min="1"
+								step="1"
+								placeholder="Number of dice"
+								class="input input-bordered w-full max-w-xs"
+							/>
+						</div>
+
+						<select class="select select-bordered select-primary w-full max-w-xs">
+							<option disabled selected value={undefined}>Dice Type</option>
+							<option>D6</option>
+							<option>D3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h3 class="mb-6">Secondary</h3>
+			<div class="card w-96 shadow-xl bg-secondary text-secondary-content">
+				<div class="card-body">
+					<div class="card-actions justify-end">
+						<div class="form-control w-full max-w-xs">
+							<label class="label" for="dice-num">
+								<span class="label-text">Number of Dice</span>
+							</label>
+							<input
+								id="dice-num"
+								type="number"
+								min="1"
+								step="1"
+								placeholder="Number of dice"
+								class="input input-bordered w-full max-w-xs"
+							/>
+						</div>
+
+						<select class="select select-bordered select-primary w-full max-w-xs">
+							<option disabled selected value={undefined}>Dice Type</option>
+							<option>D6</option>
+							<option>D3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h3 class="mb-6">Accent</h3>
+			<div class="card w-96 shadow-xl bg-accent text-accent-content">
+				<div class="card-body">
+					<div class="card-actions justify-end">
+						<div class="form-control w-full max-w-xs">
+							<label class="label" for="dice-num">
+								<span class="label-text">Number of Dice</span>
+							</label>
+							<input
+								id="dice-num"
+								type="number"
+								min="1"
+								step="1"
+								placeholder="Number of dice"
+								class="input input-bordered w-full max-w-xs"
+							/>
+						</div>
+
+						<select class="select select-bordered select-accent w-full max-w-xs">
+							<option disabled selected value={undefined}>Dice Type</option>
+							<option>D6</option>
+							<option>D3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h3 class="mb-6">Neutral</h3>
+			<div class="card w-96 shadow-xl bg-neutral text-neutral-content">
+				<div class="card-body">
+					<div class="card-actions justify-end">
+						<div class="form-control w-full max-w-xs">
+							<label class="label" for="dice-num">
+								<span class="label-text">Number of Dice</span>
+							</label>
+							<input
+								id="dice-num"
+								type="number"
+								min="1"
+								step="1"
+								placeholder="Number of dice"
+								class="input input-bordered w-full max-w-xs"
+							/>
+						</div>
+
+						<select class="select select-bordered w-full max-w-xs">
+							<option disabled selected value={undefined}>Dice Type</option>
+							<option>D6</option>
+							<option>D3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="collapse">
+	<input type="checkbox" class="peer" />
 	<div class="collapse-title">Stat</div>
 	<div class="collapse-content space-y-6">
 		<div>
